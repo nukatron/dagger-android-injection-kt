@@ -4,12 +4,12 @@ import android.app.Application
 import android.content.Context
 import com.nutron.daggerandroidinjection.data.ApiService
 import com.nutron.daggerandroidinjection.data.ApiServiceImpl
-import com.nutron.daggerandroidinjection.presentation.main.MainActivityComponent
 import dagger.Module
 import dagger.Provides
 
 
-@Module(subcomponents = [MainActivityComponent::class])
+//@Module(subcomponents = [MainActivityComponent::class])
+@Module
 class AppModule {
 
     @Provides

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DaggerAndroidInjection</string>
+    <string name="detail_content">Fragment Detail Content</string>
 </resources>

@@ -1,6 +1,9 @@
-package com.nutron.daggerandroidinjection.presentation.main
+package com.nutron.daggerandroidinjection.presentation.main.di
 
 import com.nutron.daggerandroidinjection.data.ApiService
+import com.nutron.daggerandroidinjection.presentation.main.MainActivity
+import com.nutron.daggerandroidinjection.presentation.main.MainContract
+import com.nutron.daggerandroidinjection.presentation.main.MainPresenter
 import dagger.Module
 import dagger.Provides
 
