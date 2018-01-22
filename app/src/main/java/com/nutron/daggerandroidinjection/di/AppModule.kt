@@ -12,6 +12,11 @@ import dagger.Provides
 @Module
 class AppModule {
 
+    /**
+     * We create our AppComponent with our <MainApplication> class.
+     * At that time we use @BindsInstance to inject Application instance to AppComponent.
+     * So, that is a reason why Dagger know Application without passing it via constructor.
+     */
     @Provides
     fun provideContext(application: Application): Context = application
 

@@ -8,6 +8,6 @@ interface FragmentDetailContract {
     }
 
     interface UserActionListener {
-        fun onLoadData()
+        fun loadData()
     }
 }
